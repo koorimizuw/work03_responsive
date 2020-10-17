@@ -35,11 +35,13 @@ const Menu = styled.div`
         background-color: #fff;
         max-width: 100vw;
         width: 100%;
+        z-index: -1;
     }
 `
 
 const MenuItem = styled.a`
-    margin: 0 10px;
+    letter-spacing: -1px;
+    margin: 0 15px;
     font-family: YuGothic, "Yu Gothic Medium", "Yu Gothic";
     text-decoration: none;
     color: #000;
@@ -78,6 +80,7 @@ const Toggle = () => {
             &:checked {
                 & ~ .menu {
                     opacity: 1;
+                    z-index: 1;
                 }
                 & ~ label .icon span{
                     &:nth-of-type(1) {
@@ -140,6 +143,10 @@ const Toggle = () => {
 }
 
 const HeaderButton = styled(Button)`
+    letter-spacing: -1px;
+    padding: 0 10px;
+    font-size: 12px;
+
     @media ${device.tablet} {
         display: none;
     }

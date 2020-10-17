@@ -113,7 +113,7 @@ const Data = styled.td`
 
 const DataTop = styled(Data)`
     color: #fff;
-    background-color: #000 !important;
+    background-color: #333 !important;
 `
 
 export default (props: Price) => (

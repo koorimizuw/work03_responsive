@@ -26,7 +26,7 @@ const Box = styled.div`
 const Title = styled.div`
     font-family: YuGothic, "Yu Gothic Medium", "Yu Gothic";
     font-size: 18px;
-    background-color: #000;
+    background-color: #333;
     color: #fff;
     height: 40px;
     display: flex;

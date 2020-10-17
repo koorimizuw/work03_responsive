@@ -9,6 +9,7 @@ const Visual = styled.div`
     background-size: cover;
     background-position: center;
     height: 480px;
+    z-index: 0;
 `
 
 const Main = styled.div`
